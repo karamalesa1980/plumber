@@ -28,6 +28,9 @@ const Button = styled.a`
   border-radius: 0;
   background: #fff;
   color: #333 !important;
+  padding: 10px 20px;
+  font-size: 18px;
+  //width: 100%;
   box-shadow: 0px 0px 0px 3px #473228,
     -6px 6px #ef5f17,
     -6px 6px 0px 3px #473228;
