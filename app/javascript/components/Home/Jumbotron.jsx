@@ -15,6 +15,11 @@ const Header = styled.h1`
   line-height: 52px;
 `
 
+const Subhead = styled.p`
+  font-size: 18px;
+  font-weight: 500;
+`
+
 const Jumbotron = () => {
   return (
     <Section className="home-section--1">
@@ -23,7 +28,7 @@ const Jumbotron = () => {
           <div className="col col-sm-12 col-md-5">
             <div className="pt-4 mt-4">
               <Header>React For Rails Developers!</Header>
-              <p>Supercharge your Ruby on Rails Apps with React.js</p>
+              <Subhead>Supercharge your Ruby on Rails Apps with React.js</Subhead>
             </div>
           </div>
           <div className="col col-sm-12 col-md-7">
