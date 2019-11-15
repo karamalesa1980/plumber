@@ -31,7 +31,7 @@ const ActiveItem = (props) => {
                   <h4>{props.title}</h4>
                   <p>{props.description}</p>
                   <div className="cta-wrapper">
-                    <Button className="btn cta-btn">Watch This Video</Button>
+                    <Button onClick={props.handleVideoChange} className="btn cta-btn">Watch This Video</Button>
                   </div>
                 </div>
               </div>

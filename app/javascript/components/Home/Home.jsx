@@ -16,11 +16,17 @@ class Home extends Component {
     }
   }
 
+  handleVideoChange(item, event){
+    event.preventDefault()
+
+    debugger
+  }
+
   render() {
     return (
       <div>
         <Jumbotron />
-        <Table course_modules={this.state.course_modules}/>
+        <Table handleVideoChange={this.handleVideoChange.bind(this)} course_modules={this.state.course_modules}/>
       </div>
     
     )
