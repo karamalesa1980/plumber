@@ -20,7 +20,7 @@ class Home extends Component {
     return (
       <div>
         <Jumbotron />
-        <Table />
+        <Table course_modules={this.state.course_modules}/>
       </div>
     
     )
