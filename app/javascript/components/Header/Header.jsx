@@ -41,7 +41,7 @@ const Section = styled.section`
 const Header = (props) => {
   return (
     <div className={classes.header}>
-        <HeaderLink />
+        <HeaderLink activeClassName={classes.active} />
     </div>
   )
 }

@@ -19,8 +19,9 @@
   color: #030303;
   border-radius: 5px; 
   text-indent: 15px;
-  margin-right: 100px;
-  position: absolute; right:100px;
+  /* margin-right: 100px; */
+  /* position: absolute; right:100px; */
+  margin-left: 20px;
   
 }
 
@@ -32,3 +33,4 @@
 .headerlinktop {
   margin-top: 10px;
 }
+

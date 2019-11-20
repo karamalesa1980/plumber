@@ -41,7 +41,7 @@ const HeaderLink = (props) => {
   return (
     <div className='row'>
       <div className={classes.headerlink}>
-        <Link to='/about'>ABOUT</Link>
+        <Link to='/about' activeClassName={classes.active_link}>ABOUT</Link>
       </div>
       <div className={classes.headerlinktop}>
         <Link to='/reviews'>REVIEWS</Link>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Header from './Header/Header'
+import Header from '../Header/Header'
 import Jumbotron from './Jumbotron'
 import Table from './Table/Table'
 import axios from 'axios'
