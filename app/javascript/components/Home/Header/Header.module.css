@@ -1,0 +1,27 @@
+.header {
+  background-color: #030303;
+  height: 95px;
+  color: #fff;
+  padding-top: 10px;
+  
+}
+
+.header a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  position: relative;
+}
+
+/* .phone {
+  background-color: #F3EB58;
+  height: 30px;
+  width: 175px;
+  color: #030303;
+  border-radius: 5px; 
+  text-indent: 15px;
+  margin-right: 100px;
+  position: absolute; right:0px;
+  
+} */
+
