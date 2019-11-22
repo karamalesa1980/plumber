@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 
 const Section = styled.section`
+  position: relative;
   background-color: #d74234;
   min-height: 550px;
   padding: 100px 0;
@@ -13,6 +14,7 @@ const Header = styled.h1`
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
+
 `
 
 const Subhead = styled.p`

@@ -5,6 +5,7 @@ import Table from './Table/Table'
 import axios from 'axios'
 import styled from 'styled-components'
 import { BrowserRouter, Route } from 'react-router-dom';
+import ImageTop from '../ImageTop/ImageTop';
 
 
 
@@ -52,6 +53,7 @@ class Home extends Component {
       <div>
         <BrowserRouter>
         <Header />
+        <ImageTop />
         <Jumbotron />
         <Table handleVideoChange={this.handleVideoChange.bind(this)} course_modules={this.state.course_modules}/>
         </BrowserRouter>
