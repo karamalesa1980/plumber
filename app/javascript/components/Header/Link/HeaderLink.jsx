@@ -40,7 +40,10 @@ const Section = styled.section`
 const HeaderLink = (props) => {
   return (
     <div className='row'>
-      <div className={classes.headerlink}>
+      <div className={classes.imglogo}>
+        <img src='/logo.png'></img>
+      </div>
+      <div className={classes.headerlinktop}>
         <Link to='/about' activeClassName={classes.active_link}>ABOUT</Link>
       </div>
       <div className={classes.headerlinktop}>
