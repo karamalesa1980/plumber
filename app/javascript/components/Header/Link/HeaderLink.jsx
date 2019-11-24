@@ -44,7 +44,7 @@ const HeaderLink = (props) => {
         <img src='/logo.png'></img>
       </div>
       <div className={classes.headerlinktop}>
-        <Link to='/about' activeClassName={classes.active_link}>ABOUT</Link>
+        <Link to='/about'>ABOUT</Link>
       </div>
       <div className={classes.headerlinktop}>
         <Link to='/reviews'>REVIEWS</Link>

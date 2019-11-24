@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import classes from './Header.module.css';
 import { Link } from 'react-router-dom';
 import HeaderLink from './Link/HeaderLink';
+import HeaderDrop from './HeaderDrop/HeaderDrop';
 
 const Section = styled.section`
   background-color: #030303;
@@ -42,6 +43,7 @@ const Header = (props) => {
   return (
     <div className={classes.header}>
         <HeaderLink activeClassName={classes.active} />
+        <HeaderDrop />
     </div>
   )
 }
